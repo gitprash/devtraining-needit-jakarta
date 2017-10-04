@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Like it?" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="y"/>
+                <element label="No" sequence="1" value="n"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+    </element>
+</database>
