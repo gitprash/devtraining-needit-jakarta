@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="RAM_Demotable_with_stage_column" max_length="40" name="x_58872_needit_ram_demotable_with_stage_column" type="collection">
+        <element display="true" label="TestName" max_length="100" name="testname" type="string"/>
+        <element label="Started at" max_length="40" name="u_glide_time_1" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stage" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>
